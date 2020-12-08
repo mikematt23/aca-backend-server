@@ -3,8 +3,8 @@ const router = express.Router();
 const controller = require("../controllers/orders")
 const cors = require('cors')
 
-app.use(cors({
-  origin: 'https://michaels-final-app.herokuapp.com'
+router.use(cors({
+  origin:'http://localhost:3000'
 }))
 
 

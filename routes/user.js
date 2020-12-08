@@ -3,9 +3,7 @@ const router = express.Router();
 const controller = require('../controllers/user')
 const cors = require('cors')
 
-app.use(cors({
-  origin: 'https://michaels-final-app.herokuapp.com'
-}))
+
 
 router.get('/email/:email',controller.getUser)
 
