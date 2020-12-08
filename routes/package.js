@@ -4,8 +4,8 @@ const controller = require("../controllers/package")
 const cors = require('cors')
 
 
-router.use(cors({
-  origin:'http://localhost:3000'
+app.use(cors({
+  origin: 'https://michaels-final-app.herokuapp.com'
 }))
 
 
