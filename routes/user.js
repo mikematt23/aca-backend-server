@@ -3,9 +3,7 @@ const router = express.Router();
 const controller = require('../controllers/user')
 const cors = require('cors')
 
-router.use(cors({
-  origin: 'http://localhost:3000'
-}))
+
 
 router.get('/email/:email',controller.getUser)
 
